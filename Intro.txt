@@ -7,3 +7,10 @@ ok let start...
 --> Easy to understand.
 --> open source programming Language.
 --> used to handle databases.
+
+
+Modules and Pip
+
+# 2 types of Modules
+1. Built in Modules
+2. External modules --> dont know the implementation
