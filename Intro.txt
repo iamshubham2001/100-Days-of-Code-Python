@@ -4,3 +4,6 @@ ok let start...
 
 --> Python is a Dynamically purpose Prigramming Language that supports an object-oriented programming approach as well as functional programming approach.
 --> Python is an interpreted and a high-level programming Language. 
+--> Easy to understand.
+--> open source programming Language.
+--> used to handle databases.
