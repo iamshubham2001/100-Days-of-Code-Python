@@ -71,11 +71,45 @@ a = input("Enter your name = ")
 print("my name is ",a)
 '''
 
+'''
 a = input("enter the number: ")
 d = input("enter the number: ")
-print(a+d)
+print(a+d) #catination
 print(int(a)+int(d))
 
 b = int(input("enter first number: "))
 c = int(input("enter your second number: "))
 print(b+c)
+'''
+
+# Strings  --> that you enclose between single and double quotation marks is considered a string
+
+name = "shubham"
+friend= "ankit"
+another = "dara"
+#print("hello, "+ name)
+
+
+
+
+
+apple= '''he said, 
+hii shubham
+hey i am good
+"I want to eat an apple".'''
+#print(apple)
+
+    # print(name[0])
+    # print(name[1])
+
+# ARRAY --> Collection of Elements
+
+print("lets use a for loop\n")
+for character in name:
+    print(character)
+
+# String Slicing
+
+names = "Harry, Shubham"
+print(len(names))
+

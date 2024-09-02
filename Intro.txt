@@ -20,3 +20,6 @@ DAY 2 :
     --> Variable & Data types
     --> Exercise 1
     --> Type Casting
+    --> Input
+    --> Strings
+    --> String Slicing & Operation on String
