@@ -14,3 +14,8 @@ Modules and Pip
 # 2 types of Modules
 1. Built in Modules
 2. External modules --> dont know the implementation
+
+
+DAY 2 :
+    --> Variable & Data types
+    --> 
