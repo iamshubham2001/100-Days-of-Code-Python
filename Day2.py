@@ -103,13 +103,16 @@ hey i am good
     # print(name[1])
 
 # ARRAY --> Collection of Elements
-
+'''
 print("lets use a for loop\n")
 for character in name:
     print(character)
-
+'''
 # String Slicing
 
-names = "Harry, Shubham"
+names = "Harry,Shubham"
 print(len(names))
+fruit = "Mango"
+len1 = len(fruit)
+print("mango is a", len1 ,"letter words")
 
