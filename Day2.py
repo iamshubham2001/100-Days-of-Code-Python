@@ -97,7 +97,7 @@ apple= '''he said,
 hii shubham
 hey i am good
 "I want to eat an apple".'''
-#print(apple)
+print(apple)
 
     # print(name[0])
     # print(name[1])
@@ -108,11 +108,27 @@ print("lets use a for loop\n")
 for character in name:
     print(character)
 '''
+
 # String Slicing
 
+
+'''
 names = "Harry,Shubham"
 print(len(names))
 fruit = "Mango"
 len1 = len(fruit)
 print("mango is a", len1 ,"letter words")
+print(fruit[0:4]) # includin [0]  but not [4]
+print(fruit[:4])
+print(fruit[1:4])
+print(fruit[:])
+print(fruit[0:-3])  # len(fruit)-3
+print(fruit[-1:-3]) 
+print(fruit[-3:-1])  # [2:4]
 
+'''
+
+'''
+nm = "Harry"
+print(nm[-4:-2])
+'''
