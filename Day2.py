@@ -44,19 +44,38 @@ print(5**6)  # Exponential
 #         1. Explicit --> mai ker raha hu
 #         2. Implicit --> 
 
-
+'''
 a = "1"
 b = "2"
 c = "Harry"
 d = "Bhaii"
 print(a+b)
 print(c+d) 
-print(int(a)+int(b))
+print(int(a)+int(b))   '''
 
 # Implicit Type Casting
-
+'''
 c=1.9
 d=8
 
-print(c+d)
+print(c+d) '''
 
+# take user input in python
+#  --> we can take user input directly by using input() function
+#  --> input function gives a return value as string/character
+
+'''
+# a = input()
+
+a = input("Enter your name = ") 
+print("my name is ",a)
+'''
+
+a = input("enter the number: ")
+d = input("enter the number: ")
+print(a+d)
+print(int(a)+int(d))
+
+b = int(input("enter first number: "))
+c = int(input("enter your second number: "))
+print(b+c)
