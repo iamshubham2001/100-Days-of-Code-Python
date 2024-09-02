@@ -27,6 +27,7 @@ print("the type of a is", type(c))
 
 # Calculator
 
+'''
 print(5+6)
 print(5-6)
 print(5*6)
@@ -34,4 +35,28 @@ print(5/6)
 print(5//3)     #Floor Division
 print(5%6)    #Modulus
 print(5**6)  # Exponential
+
+'''
+
+# Typecasting 
+#       --> The conversion of one data type into the other data type is known as type casting in python or type conversion in python
+#      Types :
+#         1. Explicit --> mai ker raha hu
+#         2. Implicit --> 
+
+
+a = "1"
+b = "2"
+c = "Harry"
+d = "Bhaii"
+print(a+b)
+print(c+d) 
+print(int(a)+int(b))
+
+# Implicit Type Casting
+
+c=1.9
+d=8
+
+print(c+d)
 
