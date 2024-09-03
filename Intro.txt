@@ -23,3 +23,6 @@ DAY 2 :
     --> Input
     --> Strings
     --> String Slicing & Operation on String
+
+DAY 3 :
+    --> String Methods

@@ -97,7 +97,7 @@ apple= '''he said,
 hii shubham
 hey i am good
 "I want to eat an apple".'''
-print(apple)
+#print(apple)
 
     # print(name[0])
     # print(name[1])
@@ -132,3 +132,5 @@ print(fruit[-3:-1])  # [2:4]
 nm = "Harry"
 print(nm[-4:-2])
 '''
+
+
