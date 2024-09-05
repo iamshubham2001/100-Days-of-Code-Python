@@ -27,3 +27,9 @@ DAY 2 :
 DAY 3 :
     --> String Methods
     --> if-else statements
+
+DAY 4 :
+    --> Exercise 2
+    --> match statements
+    --> for loop
+    --> while loop
