@@ -1,4 +1,4 @@
-# break and continue
+# --------break and continue-----------
 # ---> the break statement enables a program to skip over a part of the code. a break statement terminates the very loop it lies within.
 
 '''
@@ -37,7 +37,10 @@ while True:
         break
 '''
 
-# Function
+
+
+
+# ---------------Function-------------
 
 '''
     --> A function is a block of code that performs a specific task whenever it is called.
@@ -53,7 +56,7 @@ while True:
                 use def()
 '''
 
-
+'''
 def calculateGmean(a,b):
     mean = (a*b)/(a+b)
     print(mean)
@@ -89,7 +92,60 @@ d = 2
 #     print("second number is greater or equal")
 calculateGmean(c,d)
 isGreater(c,d)
+'''
 
+'''
 def name(name,lname):
     print("hello, ", name, lname)
 name("Shubham","Sharma")
+'''
+
+
+# Function argument 
+'''
+There are Four types of arguments that we can provide in a function:
+    -> Default Arguments
+    -> Keyword Arguments
+    -> Variable Length Arguments
+    -> Required Arguments
+'''
+
+'''
+def average(a,b):
+    print("The average is", (a+b)/2)
+average(4,6)
+
+'''
+
+'''
+def calaverage(a,b):
+    average=(a+b)/2
+    print(average)
+
+a=4
+b=6
+calaverage(a,b)
+'''
+
+'''
+def name(fname,mname="john",lname="whatson"):
+    print("hello",fname,mname,lname)
+name("any")
+'''
+
+# Keyword arguments
+'''
+def name(fname,mname,lname):
+    print("hello",fname,mname,lname)
+name(fname="any",mname="john",lname="watson")
+'''
+
+# Variable length arguments
+
+def average (*numbers):
+    sum=0
+    for i in numbers:
+        sum=sum+i
+    print("average is",sum/len(numbers))
+
+average(5,6)
