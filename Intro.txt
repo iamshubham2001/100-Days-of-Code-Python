@@ -33,3 +33,8 @@ DAY 4 :
     --> match statements
     --> for loop
     --> while loop
+
+DAY 5 :
+    --> Break and Continue
+    --> do-while
+    --> Function
