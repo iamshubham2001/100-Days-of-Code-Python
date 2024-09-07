@@ -142,6 +142,7 @@ name(fname="any",mname="john",lname="watson")
 
 # Variable length arguments
 
+'''
 def average (*numbers):         # numbers as a tuple
     sum=0
     for i in numbers:
@@ -149,6 +150,10 @@ def average (*numbers):         # numbers as a tuple
     print("average is",sum/len(numbers))
 
 average(5,6)
+'''
+
+'''
+
 
 
 def average (*numbers):         # numbers as a tuple
@@ -159,3 +164,4 @@ def average (*numbers):         # numbers as a tuple
 
 c= average(3,4,1,5,6)
 print(c)
+'''
