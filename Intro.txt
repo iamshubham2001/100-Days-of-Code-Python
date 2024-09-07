@@ -38,3 +38,7 @@ DAY 5 :
     --> Break and Continue
     --> do-while
     --> Function
+
+DAY 6 :
+    --> List
+    --> List Methods
