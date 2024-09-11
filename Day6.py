@@ -103,7 +103,7 @@ l= [11,33,44,23,12,1,7]
 print(l)
 l.insert(1,899)
 print(l)
-'''
+
 
 #extent()
 
@@ -114,3 +114,4 @@ l.extend(m)
 print(l)
 k=l+m
 print(k)
+'''

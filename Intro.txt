@@ -42,3 +42,6 @@ DAY 5 :
 DAY 6 :
     --> List
     --> List Methods
+
+DAY 7 :
+    --> Tuples
