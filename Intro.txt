@@ -45,3 +45,6 @@ DAY 6 :
 
 DAY 7 :
     --> Tuples
+
+DAY 8 :
+    --> String Formating

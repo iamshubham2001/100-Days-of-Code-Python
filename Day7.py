@@ -38,8 +38,15 @@ countries= c1+c2
 print(countries)
 '''
 
+'''
+    # count()
+
 t1=(1,2,3,4,3,3,2,3,5,7,3)
 res=t1.count(3)
+res1=t1.index(3,4,8)
 print(res)
+print(res1)
+'''
+
 
 
