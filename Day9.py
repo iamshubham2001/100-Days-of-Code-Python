@@ -51,8 +51,18 @@ print(fabonacci(n))
 ''' Set is a collection of well defined object
     do not contain duplicate item
     Sets are unchangeable
+    Sets are unordered collection of data item
+    { } use curly bracket
 '''
 
-s ={2,4,2,6}
+s ={2,4,2,6,"carlo","shubham",8}
 print(s)
+
+
+#empty set
+harry =set()
+print(type(harry))
+
+for value in s:
+    print(value)
 
