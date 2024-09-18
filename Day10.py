@@ -37,8 +37,50 @@ print(cities1.add("Bihar"))
 # clear cities
 '''
 
+
+'''
 info={"shubham","raju",19,False,5.9,"chintu"}
 if "shubham" in info:
     print("yes")
 else:
     print("no")
+'''
+
+
+
+
+#--------------------Dictionary-------------------------------
+
+'''
+    --> Access fast
+    --> Dictionaries ordered collection of data items.
+    --> They store multiple item in a single variable
+    --> Represented by curly brackets {}
+'''
+
+
+'''
+dic = {
+    "Shubham":"Human",
+    "Spoon":"object",
+    344:"Harry",
+    678:"Zakir",
+    56:"Shubham",
+    567:"Neha"
+
+}
+
+
+print(dic["Shubham"])
+print(dic[567])
+print(dic)
+print(dic.keys())
+print(dic.values())
+
+for key in dic.keys():
+    print(dic[key])
+'''
+
+info ={"Name":"Shubham", "Age": 23, "Eligible":True}
+for key in info.keys():
+    print(f"The value corresponding to the key {key} is {info[key]}")
