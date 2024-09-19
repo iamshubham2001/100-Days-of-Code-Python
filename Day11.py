@@ -24,7 +24,7 @@ print(ep1)
     The pgm exists the loop only after the else block is executed. 
 '''
 
-
+'''
 for i in range(6):
     print(i)
     # if i == 0:
@@ -33,7 +33,7 @@ for i in range(6):
 
 else:
     print("Sorry no i")
-
+'''
 
 
 '''
@@ -48,8 +48,33 @@ else:
     print ("Sorry")
 '''
 
+'''
 for x in range(5):
     print("iteration no. {} in for loop".format(x+1))
 else:
     print("else block in loop")
 print("Out of Loop")
+'''
+
+
+# Exception handling ------------------
+
+'''
+    The process of responding to unwanted or unexpected events when a computer program runs.
+    It deals with these events to avoid the program or system crashing, and without this process, exceptiona would disrupt the normal operation of a program.
+    try.....except blocks are used in python to handle errors and exceptions.
+
+'''
+
+
+a = input("Enter the number: ")
+print(f"Multiplication table of {a} is ")
+
+try:
+    for i in range(11):
+        print(f"{a} X {i} = {int(a)*i}")
+except Exception as e:
+    print("Sorry")
+
+print("some lines of code")
+print("end of the pgm")
