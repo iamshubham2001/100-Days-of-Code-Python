@@ -62,3 +62,5 @@ DAY 11 :
     --> Dictionary Methods
     --> for Loop with else in Python
     --> Exception handling in Python
+    --> Finally keyword
+    --> Custom error

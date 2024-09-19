@@ -66,15 +66,64 @@ print("Out of Loop")
 
 '''
 
-
+'''
 a = input("Enter the number: ")
 print(f"Multiplication table of {a} is ")
 
 try:
     for i in range(11):
         print(f"{a} X {i} = {int(a)*i}")
+
+#except:
 except Exception as e:
     print("Sorry")
 
 print("some lines of code")
 print("end of the pgm")
+'''
+
+# Finally Keyword-------------------
+
+'''
+    The finally code block is also a part of exception handling,
+    When we handle exception using the try and except block,we can include a finally block at the end.
+    The finally block is always executed
+'''
+
+
+'''
+try:
+    #statements which could generate exception
+except:
+    #solution of generated exception
+finally:
+    #block of code which is going to execute in any situation
+'''
+
+'''
+def func1():
+    try:
+        l =[1,5,6,7]
+        i =int(input("Enter the index: "))
+        print(l[i])
+        return 1
+    except:
+        print("Some eror occured")
+        return 0
+    finally:
+        print("Iam always executed")
+
+x = func1()
+print(x)
+'''
+
+# Raising Custom Error
+
+'''
+    In python, we can raise custom errors by using the raise keyword.
+'''
+
+a = int(input("Enter any value between 5 and 9"))
+
+if(a<5 or a>9):
+    raise ValueError("Value should be between 5 and 9")
