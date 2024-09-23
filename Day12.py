@@ -40,6 +40,18 @@ for index, mark in enumerate(marks):
         print("Harry, awesome")
 '''
 
+
+'''
 fruits = ['Apple','Banana','Mango']
 for index,fruit in enumerate(fruits, start=1):
     print(index,fruit)
+'''
+
+
+# Virtual environment
+'''
+    A virtual environment is a tool used to isolate specific python environments on a single machine.
+    Allowing you to work on multiple projects with different dependencies without conflicts.
+'''
+
+# import works in python

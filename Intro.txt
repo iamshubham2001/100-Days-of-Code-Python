@@ -68,3 +68,6 @@ DAY 11 :
 DAY 12 :
     --> Exercise 4
     --> Short hand if else
+
+DAY 13 :
+    --> import work in Python
